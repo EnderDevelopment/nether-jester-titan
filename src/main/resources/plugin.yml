@@ -1,0 +1,14 @@
+name: Preston
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: A neutral flying Nether boss that can become an ally.
+commands:
+  preston:
+    description: Spawn Preston's Nether castle encounter.
+    usage: /preston spawn
+    permission: preston.spawn
+permissions:
+  preston.spawn:
+    description: Allows spawning the Preston encounter.
+    default: op

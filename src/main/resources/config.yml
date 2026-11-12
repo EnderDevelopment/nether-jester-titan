@@ -1,0 +1,5 @@
+# Define this sound in a server resource pack to play WAR during boss fights.
+# The key can be changed to match the resource pack's sounds.json entry.
+war-sound: "preston:war"
+war-volume: 1.0
+war-pitch: 1.0
